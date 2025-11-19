@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+        
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align:center;">Nested Table Example</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>Ayushman</td>
+
+            <!-- NESTED TABLE STARTS HERE -->
+            <td>
+                <table>
+                    <tr>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Lucknow</td>
+                    </tr>
+                </table>
+            </td>
+            <!-- NESTED TABLE ENDS HERE -->
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
